@@ -1,5 +1,7 @@
 # grapher
-=======
+======
+
+\[Discontinued project\]: This source has been integrated into [https://github.com/McOmghall/autotroll the autotroll project] and every new update should be checked there.
 
 A simple crawler on Wikipedia info written in Ruby using wikimedia JSON API.
 It parses the Wikipedia link structure into a database graph structure with decorated nodes:
