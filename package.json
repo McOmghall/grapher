@@ -1,0 +1,31 @@
+{
+  "name": "wikipedia-grapher",
+  "version": "0.0.0",
+  "description": "It graphs the wikipedia",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && cross-env NODE_ENV=test grunt test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/McOmghall/wikipedia-grapher.git"
+  },
+  "author": "Pedro Montoto Garc�a",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/McOmghall/wikipedia-grapher/issues"
+  },
+  "dependencies": {
+    "crawler": "^1.1.1",
+    "envify": "latest",
+    "standard": "latest"
+  },
+  "standard": {
+    "ignore": [
+      "test/**",
+      "vendor/**"
+    ]
+  },
+  "private": true
+}
